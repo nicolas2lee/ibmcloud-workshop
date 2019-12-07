@@ -1,0 +1,4 @@
+#ignore intellig config
+.idea
+
+**.iml

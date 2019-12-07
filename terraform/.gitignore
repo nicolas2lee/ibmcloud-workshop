@@ -1,0 +1,6 @@
+#ignore secrets
+ibmcloud_apikey.json
+
+#ignore terraform files
+**/.terraform
+terraform/tfstate**
