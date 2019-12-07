@@ -1,4 +1,4 @@
-# provision your needed ibm cloud service with terraform (is possible)
+# Provision your needed ibm cloud service with terraform (is possible)
 
 1. create api key for terraform
         
@@ -13,5 +13,15 @@
     ```
 [Terrafrom ibm cloud doc ref](https://ibm-cloud.github.io/tf-ibm-docs/index.html#using-terraform-with-the-ibm-cloud-provider)
 ## kubernetes cluster
+    provider.tf
+    ```hcl-terraform    
+       resource "ibm_container_cluster" "streaming_kubernetes_cluster" {
+         name            = "streaming"
+         datacenter      = "dal10"
+         machine_type    = "free"
+         hardware        = "shared"
+       }
+    ```
 ## namespace for docker registry
+    ibmcloud cr namespace-add <namespace>
 ## toolchain
