@@ -24,4 +24,6 @@
     ```
 ## namespace for docker registry
     ibmcloud cr namespace-add <namespace>
+## ibm event stream
+The free offer if only available in dallas region. No any possible way to create ibm event stream instance automatically. 
 ## toolchain
