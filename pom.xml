@@ -13,11 +13,6 @@
         <jackson.version>2.9.10</jackson.version>
     </properties>
 
-    <modules>
-        <module>kafka-event-stream-consumer</module>
-        <module>kafka-event-stream-producer</module>
-    </modules>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
