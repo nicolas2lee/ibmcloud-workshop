@@ -1,6 +1,6 @@
-# streaming-ibmcloud-workshop
+# Streaming-ibmcloud-workshop
 
-## prerequisite
+## Prerequisite
 * ibmcloud cli
 * ibmcloud plugin container-service container-reigstry
 * docker
@@ -9,13 +9,21 @@
 * terraform
 * terraform ibm cloud plugin
 
-### play with kube
+### Play with kube
 * docker, kubernete preinstalled
 * use /env/install.sh to install the rest
 
-## login with your ibm cloud account
+## Login with your ibm cloud account
     ibmcloud login (--sso(according to your case))
 
-## provision your needed ibm cloud service with terraform (is possible)
+## Provision your needed ibm cloud service with terraform (if possible)
 
-[reference for this part](terraform/README.md)
+[Reference for this part](terraform/README.md)
+
+## Dockernize & deploy on kubernetes
+[Reference for this part](https://github.com/nicolas2lee/kafka-event-stream-producer)
+
+# Helm
+https://www.ibm.com/cloud/garage/content/course/helm-fundamentals/10
+
+https://cloud.ibm.com/docs/containers?topic=containers-helm
