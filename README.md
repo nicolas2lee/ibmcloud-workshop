@@ -21,9 +21,5 @@
 [Reference for this part](terraform/README.md)
 
 ## Dockernize & deploy on kubernetes
+[Spring boot web flux example](https://github.com/nicolas2lee/streaming-springboot-webflux)
 [Reference for this part](https://github.com/nicolas2lee/kafka-event-stream-producer)
-
-# Helm
-https://www.ibm.com/cloud/garage/content/course/helm-fundamentals/10
-
-https://cloud.ibm.com/docs/containers?topic=containers-helm
