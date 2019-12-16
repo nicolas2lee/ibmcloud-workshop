@@ -18,8 +18,8 @@
 
 ## Provision your needed ibm cloud service with terraform (if possible)
 
-[Reference for this part](terraform/README.md)
+[Using terraform](terraform/README.md)
 
 ## Dockernize & deploy on kubernetes
-[Spring boot web flux example](https://github.com/nicolas2lee/streaming-springboot-webflux)
-[Reference for this part](https://github.com/nicolas2lee/kafka-event-stream-producer)
+* [Spring boot web flux example](https://github.com/nicolas2lee/streaming-springboot-webflux)
+* [Akka stream kafka producer with IBM Event stream](https://github.com/nicolas2lee/kafka-event-stream-producer)
