@@ -3,9 +3,11 @@
 #========== ref doc: https://cloud.ibm.com/docs/cli?topic=cloud-cli-install-ibmcloud-cli&locale=en-us
 curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
 
-#========== install ibmcloud plugin container-service, container-registry ==========
+#========== install ibmcloud plugin container-service, container-registry, dev ==========
 ibmcloud plugin install container-service
 ibmcloud plugin install container-registry
+ibmcloud plugin install dev
+ibmcloud plugin install analytics-engine
 
 #========== install helm ==========
 #========== ref doc: https://helm.sh/docs/intro/install/ ==========

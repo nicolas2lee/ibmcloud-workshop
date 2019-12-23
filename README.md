@@ -13,6 +13,10 @@
 * docker, kubernete preinstalled
 * use /env/install.sh to install the rest
 
+Or you can run below command to install
+
+    curl https://raw.githubusercontent.com/nicolas2lee/streaming-ibmcloud-workshop/master/env/play-with-kube/install.sh | sh
+
 ## Login with your ibm cloud account
     ibmcloud login (--sso(according to your case))
 
