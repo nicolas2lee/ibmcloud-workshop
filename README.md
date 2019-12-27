@@ -1,4 +1,4 @@
-# Streaming-ibmcloud-workshop
+# Ibmcloud-workshop
 
 ## Prerequisite
 * ibmcloud cli
