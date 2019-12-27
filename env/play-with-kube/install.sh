@@ -7,6 +7,10 @@ curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
 ibmcloud plugin install container-service
 ibmcloud plugin install container-registry
 ibmcloud plugin install dev
+
+#========== workaround for installing analytics engine into docker container ==========
+#========== https://stackoverflow.com/questions/34729748/installed-go-binary-not-found-in-path-on-alpine-linux-docker ==========
+mkdir /lib64 && ln -s /lib/libc.musl-x86_64.so.1 /lib64/ld-linux-x86-64.so.2
 ibmcloud plugin install analytics-engine
 
 #========== install helm ==========
