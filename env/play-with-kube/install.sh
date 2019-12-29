@@ -3,10 +3,11 @@
 #========== ref doc: https://cloud.ibm.com/docs/cli?topic=cloud-cli-install-ibmcloud-cli&locale=en-us
 curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
 
-#========== install ibmcloud plugin container-service, container-registry, dev ==========
+#========== install ibmcloud plugin container-service, container-registry, dev, event-streams ==========
 ibmcloud plugin install container-service
 ibmcloud plugin install container-registry
 ibmcloud plugin install dev
+ibmcloud plugin install event-streams
 
 #========== workaround for installing analytics engine into docker container ==========
 #========== https://stackoverflow.com/questions/34729748/installed-go-binary-not-found-in-path-on-alpine-linux-docker ==========
